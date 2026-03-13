@@ -1,0 +1,144 @@
+.model-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+  & .model-header {
+    & h3 {
+      font-family: poppins;
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+    }
+    & p {
+      font-family: poppins;
+      font-size: 13px;
+      font-weight: 400;
+      font-style: normal;
+
+      & span {
+        color: #da2e2e;
+      }
+    }
+  }
+}
+
+.model-input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+
+  & input {
+    padding: 5px 8px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  & p {
+    color: #da2e2e;
+    font-family: poppins;
+    font-size: 12px;
+    font-style: normal;
+  }
+  & button {
+    padding: 7px 15px;
+    background-color: #2ea8db;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  & label {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  & textarea {
+    padding: 5px 8px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+}
+
+.form-group-checkbox {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  & label {
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 200;
+    font-style: normal;
+  }
+}
+
+.model-bottom {
+  & h1 {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  & p {
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 8px;
+  }
+}
+
+.reminder-no {
+  padding: 5px 8px;
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 70px;
+  outline: none;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.reminder-err {
+  color: #da2e2e;
+  font-family: poppins;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.save-btn {
+  display: flex;
+  justify-content: flex-end;
+  & button {
+    padding: 7px 15px;
+    background-color: #2ea8db;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}

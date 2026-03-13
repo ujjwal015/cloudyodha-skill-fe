@@ -1,0 +1,23 @@
+.btn {
+  outline: none;
+  border: 1.2px solid rgba(38, 38, 38, 1);
+  background-color: rgba(38, 38, 38, 1);
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(38, 38, 38, 0.9);
+}
+
+.btn svg {
+  font-size: 15px;
+}

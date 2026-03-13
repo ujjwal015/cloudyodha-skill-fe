@@ -1,0 +1,13 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.radiant.testa.student",
+            "sha256_cert_fingerprints": [
+                "90:7D:C5:EA:31:A4:0F:32:11:E6:75:8F:2E:8C:74:B1:71:62:D2:97:C3:37:7F:F0:D3:43:4B:EC:A1:36:31:8C",
+                "71:6F:57:55:3A:72:94:44:42:C6:2C:19:1B:AF:8D:8D:EA:2C:14:4B:E7:C2:0B:B1:73:3D:D4:28:8B:D3:6D:0A"
+            ]
+        }
+    }
+]

@@ -1,0 +1,9 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  height: 100%;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+

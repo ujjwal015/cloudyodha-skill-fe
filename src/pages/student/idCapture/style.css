@@ -1,0 +1,131 @@
+.face-capture-container {
+
+  & .inner-card-body {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  & .inner-card {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 1%;
+
+    & .face-card {
+      border-radius: 10px;
+      border: 1px solid #d8d8d8;
+      width: 49.5%;
+
+      & h2 {
+        margin: 0 20px;
+        border-bottom: 1.4px solid #d8d8d8;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+      & p {
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.7;
+      }
+      & ul {
+        list-style: disc;
+        font-size: 13px;
+        padding: 5px 10px;
+        font-weight: 500;
+        opacity: 0.7;
+      }
+
+      & .face-card-body {
+        padding: 10px 20px 30px 20px;
+      }
+
+      & .image-quality {
+        display: flex;
+        flex-wrap: wrap;
+
+        & p {
+          font-size: 12px;
+          margin-top: 10px;
+        }
+        & .correct-image {
+          width: 40%;
+
+          & h4 {
+            color: #04d375;
+            padding: 15px 0;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+
+        & .wrong-image-side {
+          width: 60%;
+
+          & .wrong-image {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 30px;
+          }
+          & h4 {
+            color: #f85858;
+            padding: 15px 0;
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+
+        & img {
+          margin: 0 auto;
+          width: 100px;
+          border-radius: 50%;
+        }
+      }
+
+      & .clicked-img {
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+
+      & .capture-btn {
+        display: block;
+        color: #fff;
+        background-color: #2ea8db;
+        font-size: 15px;
+        border-radius: 8px;
+        border: none;
+        padding: 12px 18px;
+        cursor: pointer;
+        box-shadow: 10px 50px 40px rgba(0, 0, 0, 0.04);
+      }
+      & .capture-img {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      & .captured-img {
+        vertical-align: baseline;
+        border-radius: 10px;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+.face-card-body video {
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.camera-module-wrapper{
+  width: 100%;
+  max-width: 300px;
+}
+@media (max-width: 992px) {
+  .face-card {
+    width: 100% !important;
+  }
+  .face-card:first-child {
+    display: none !important;
+  }
+}

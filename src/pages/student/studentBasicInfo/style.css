@@ -1,0 +1,11 @@
+.registration-title-text .sub-title{
+padding-bottom: 15px;
+box-sizing: border-box;
+}
+.basic-detail-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+.basic-detail-wrapper .form-group {
+  margin-bottom: 20px;
+}

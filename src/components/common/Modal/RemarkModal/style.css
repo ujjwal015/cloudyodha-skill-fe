@@ -1,0 +1,98 @@
+
+
+.addRemark-title{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.addRemark-title-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.addRemark-model-close{
+    cursor: pointer;
+}
+
+
+.leadList-list > li{
+    margin: 25px;
+}
+
+.listitems{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.listitems-header-title{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.listitems-header-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.add-remark-input-container{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-remark-input-modification-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.add-remark-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add-remark-input-container{
+    border: grey  2px solid;
+    height: auto;
+    padding: 10px;
+}
+
+.add-remark-input-field{
+    margin-bottom: 5px;
+    height: auto    ;
+    /* padding: 5px; */
+}
+
+.add-remark-input-textfield{
+    font-size: x-large;
+    width: 100%;
+    text-overflow:clip;
+    padding: 0%;
+}
+
+.add-remark-input-modification-buttons :nth-child(n) {
+    margin: 5px;
+}
+
+.listitems-header-section :nth-child(n){
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.add-remark-timestamp{
+    /* font-weight:bolder; */
+    color: rgba(121, 121, 121, 0.74);
+}

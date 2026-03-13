@@ -1,0 +1,117 @@
+.dialog-wrapper .MuiDialog-container>div {
+    max-width: 749px !important;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.increase-exam-time .increase-exam-time-Modal {
+    width: 749px;
+    padding: 28px 22px 28px 21px;
+    box-sizing: border-box;
+}
+
+.increase-exam-time .increase-exam-time-Modal .title h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #1d1d1d;
+}
+
+.increase-exam-time .increase-exam-time-Modal .content-body {
+    margin-top: 25px;
+}
+
+.increase-exam-time .increase-exam-time-Modal .content-body h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.increase-exam-time .increase-exam-time-Modal .action-btn-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.increase-exam-time .increase-exam-time-Modal .action-btn-wrapper .yes-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    background: #00b2ff;
+    border-radius: 8px;
+    padding: 14px 20px;
+    border: unset;
+    text-transform: inherit;
+}
+
+.increase-exam-time .css-1su4254-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 100% !important;
+}
+
+.increase-exam-time .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-sizeSmall.MuiInputBase-multiline.css-zxbx3f-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 100%;
+}
+
+.increase-exam-time .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.increase-exam-time .icon-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.increase-exam-time .increase-exam-time-Modal .title-wrapper .time-icon {
+    border-radius: 10px;
+    border: 1px solid var(--gray-200, #eaecf0);
+    background: var(--base-white, #fff);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    padding: 12px;
+}
+
+
+
+/* Visible increment and decrement in number type */
+.increase-exam-time input[type="number"] {
+    -moz-appearance: auto !important;
+}
+
+.increase-exam-time input[type="number"]::-webkit-outer-spin-button,
+.increase-exam-time input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: auto !important;
+    margin: 0;
+}
+
+.increase-exam-time input[type="number"]::-ms-clear,
+.increase-exam-time input[type="number"]::-ms-reveal {
+    display: block !important;
+}
+
+.NOS_container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cancel_btn_wrapper {
+    border: 1px solid #ddd;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.line-chart-options{
+    display: flex;
+    gap: 10px;
+}
+
+.line-chart-options .btn{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #DFDFDF;
+    cursor: pointer;
+}
+
+.line-chart-options .btn.active, .line-chart-options .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.report-current-status {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    color: rgba(55, 181, 102, 1);
+  }

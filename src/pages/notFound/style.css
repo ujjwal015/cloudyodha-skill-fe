@@ -1,0 +1,41 @@
+.pagenot_found {
+  height: calc(81.5% - 26px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.pagenot_found h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.pagenot_found h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.pagenot_found p {
+  font-size: 1rem;
+  line-height: 1.3;
+  opacity: 0.8;
+}
+
+.pagenot_found button {
+  border-radius: 6px;
+  background: #2ea8db;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+@media (max-height: 7in) {
+  .pagenot_found {
+    height: 100%;
+  }
+}

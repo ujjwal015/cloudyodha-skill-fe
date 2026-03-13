@@ -1,0 +1,8 @@
+.action-menu__component {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .three-dot-icon {
+    cursor: pointer;
+  }

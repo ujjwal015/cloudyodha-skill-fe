@@ -1,0 +1,435 @@
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+.batch-id-header-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 17px 20px;
+  border-radius: 10px;
+}
+
+.candidate-name {
+  font-family: "poppins";
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+}
+.duration-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.duration-title p {
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+}
+.duration-title span {
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 600;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  color: #1ab6f7;
+}
+.candidate-live-monitoring-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 17px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.candidate-live-monitoring-container .candidate-live-monitoring-heading {
+  border-bottom: solid #e6e6e6 2px;
+}
+.candidate-live-monitoring-container .candidate-live-monitoring-text {
+  width: 150px;
+  background-color: #1ab6f7;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 10px 8px 0px 0px;
+}
+.candidate-live-monitoring-container .candidate-live-monitoring-text p {
+  font-family: "poppins";
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.candidate-status-container {
+  /* border: solid red 1px; */
+  box-sizing: border-box;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.face-status,
+.browser-status {
+  width: 23%;
+  background-color: #f1f3f4;
+  /* border: solid #000000 1px; */
+  border-radius: 5px;
+}
+.face-status-heading,
+.browser-status-heading {
+  padding: 15px 12px;
+}
+.face-status .face-status-heading p,
+.browser-status-heading p {
+  font-family: "poppins";
+  color: #000000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.face-status .face-status-heading h3 {
+  font-family: "poppins";
+  color: #04d375;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.browser-status-heading h3 {
+  font-family: "poppins";
+  color: #ff0000;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.test-control-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  height: 300px;
+}
+.test-control-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.test-control-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text-live-test {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+  background: #04d375;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin: 10px 8px;
+}
+.text-live-test p {
+  font-family: "Poppins";
+  font-size: 11px;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.text-live-test div {
+  border: solid #ffffff 2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.bottom-all-icons {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* padding-bottom: 27px; */
+  gap: 17px;
+}
+.all-icons {
+  height: 35px;
+}
+.all-icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.all-icons p {
+  font-family: "Poppins";
+  font-size: 11px;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  padding-top: 10px;
+  font-weight: 500;
+}
+.candidate-details-container {
+  background-color: #f9f9f9;
+  height: 300px;
+  width: 100%;
+  /* border: solid red 1px; */
+  box-sizing: border-box;
+  overflow: auto;
+}
+.candidate-header {
+  /* border-bottom: #1ab6f7 solid 2px; */
+  padding: 0 20px;
+}
+.candidate-header p {
+  padding: 10px 14px;
+  border-bottom: #1ab6f7 solid 2px;
+  color: #000000;
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 600;
+}
+.candidate-details {
+  padding: 0px 20px;
+}
+.candidate-details p {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: #6e6b7b;
+  font-style: normal;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+.activity-status {
+  display: flex;
+}
+.activity-status .time {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: #6e6b7b;
+  font-style: normal;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+.activity-status .status {
+  font-family: "Poppins";
+  font-size: 13px;
+  color: #ee3d58;
+  font-style: normal;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+.candidate-screenshots-container {
+  margin-top: 20px;
+}
+.candidate-screenshots-container p {
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+}
+.screenshot-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.screenshot-img img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .batch-id-header-container {
+    gap: 10px;
+  }
+  .candidate-status-container {
+    gap: 15px;
+  }
+
+  .face-status,
+  .browser-status {
+    width: 100%;
+  }
+  .test-control-container {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+  }
+  .bottom-all-icons {
+    bottom: 21px;
+    gap: 10px;
+    padding: 0px;
+  }
+  .all-icons {
+    height: 23px;
+  }
+  .all-icons p {
+    padding: 6px 0px;
+    font-size: 9px;
+  }
+  .candidate-header {
+    padding: 0px;
+  }
+
+  .candidate-details {
+    padding: 0px 20px;
+  }
+  .candidate-details p {
+    padding: 3px 0px;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .activity-status {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .activity-status .time {
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #6e6b7b;
+    font-style: normal;
+    padding: 0px;
+    font-weight: 600;
+  }
+  .activity-status .status {
+    padding: 0px;
+    line-height: 25px;
+  }
+  .candidate-screenshots-container {
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .candidate-screenshots-container p {
+    line-height: 23px;
+  }
+  .screenshot-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .screenshot-images {
+    height: 100%;
+    width: 100%;
+  }
+  .screenshot-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .candidate-status-container {
+    box-sizing: border-box;
+    gap: 10px;
+  }
+  .face-status,
+  .browser-status {
+    width: 48%;
+    background-color: #f1f3f4;
+    /* border: solid #000000 1px; */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .test-control-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+  .bottom-all-icons {
+    bottom: 30px;
+    gap: 40px;
+  }
+  .all-icons {
+    height: 40px;
+  }
+  .all-icons p {
+    font-size: 15px;
+    padding-top: 6px;
+    box-sizing: border-box;
+  }
+  .candidate-details p {
+    font-size: 14px;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+  }
+  .activity-status {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .activity-status .time {
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #6e6b7b;
+    font-style: normal;
+    padding: 0px 0px 0px 14px;
+    font-weight: 600;
+  }
+  .activity-status .status {
+    padding: 5px 10px;
+  }
+  .screenshot-img {
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  .screenshot-images {
+    width: 48%;
+  }
+  .screenshot-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1280px) {
+  .candidate-status-container {
+    gap: 5px;
+  }
+  .face-status,
+  .browser-status {
+    width: 24%;
+    box-sizing: border-box;
+  }
+  .screenshot-img {
+    gap: 10px;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .screenshot-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+}

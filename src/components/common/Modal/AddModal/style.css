@@ -1,0 +1,87 @@
+.add-new-nos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-items:; */
+}
+
+.add-new-nos-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    /* margin-right: 2px; */
+}
+
+.add-new-nos-inputfield{
+    /* border: 2px solid black; */
+}
+
+.add-new-nos-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 5px; */
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.assign-batch-upload-file{}
+
+    .assign-batch-upload-item > div {
+        display: flex;
+        justify-content: center;
+      }
+
+.add-new-nos-title-p{
+    font-size: small;
+}
+.add-new-nos-uploadfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #9b9c9e;                                                                          
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.nos-upload-file{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nos-upload-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.add-new-nos-download-sample{
+    font-size: small;
+}
+
+.upload-nos-uploaded-nos{
+    width: 50%;
+    /* background-color: #9b9c9e; */
+    padding-left:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

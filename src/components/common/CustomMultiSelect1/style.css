@@ -1,0 +1,39 @@
+.custom-select {
+  width: 49%;
+}
+
+.custom-select .MuiFormControl-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.custom-select .MuiInputBase-root {
+  width: 100%;
+}
+
+.custom-select .MuiSelect-root {
+  width: 100%;
+  border: 10px solid #ccc !important;
+  border-radius: 10px !important;
+  margin-top: 5px !important;
+  box-shadow: 0px 3px 25px 2px rgba(0, 0, 0, 0.1) !important;
+}
+.custom-select .MuiSelect-select {
+  padding: 7.5px 14px;
+}
+
+.custom-select .MuiMenuItem-root {
+  font-size: 10px !important;
+}
+
+.custom-select label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.custom-select .MuiFormHelperText-root {
+  font-size: 0.75rem;
+  color: #d32f2f;
+}

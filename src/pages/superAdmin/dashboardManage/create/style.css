@@ -1,0 +1,20 @@
+.wrapper {
+  width: 50%;
+  margin-top: 47px;
+  margin-bottom: 50px;
+
+  .form-group {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: row;
+  }
+}
+.textField-width {
+  width: 50%;
+}
+
+.add-new-dashboard-button {
+  display: flex;
+  flex-direction: row;
+}

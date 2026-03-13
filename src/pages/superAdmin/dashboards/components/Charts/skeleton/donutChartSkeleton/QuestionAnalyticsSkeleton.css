@@ -1,0 +1,59 @@
+.question-analytics-skeleton {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content {
+  display: flex;
+}
+
+.chart-skeleton {
+  flex: 1;
+  padding-right: 24px;
+}
+
+.donut-skeleton {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.legend-skeleton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.legend-item > span {
+  margin-right: 12px;
+}
+
+.legend-item > span:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+

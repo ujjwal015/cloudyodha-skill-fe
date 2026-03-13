@@ -1,0 +1,129 @@
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+.assessment-preview strong {
+  font-weight: bold;
+}
+.assessment-preview em {
+  font-style: italic;
+}
+
+.admin-dashboard .main-container .title {
+  margin-bottom: 39px;
+  display: flex;
+  justify-content: space-between;
+  font: inherit;
+  vertical-align: baseline;
+}
+.admin-dashboard .main-container .title button {
+  margin-top: unset;
+  padding: 14px 11px;
+}
+.assessment-preview .assessment-preview .title-text h1 {
+  margin-left: 15px;
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #231f20;
+}
+
+.assessment-preview .view-list-btn-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b2ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #f7f8fb;
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 500;
+  line-height: 10px;
+}
+.assessment-preview .title-text svg {
+  cursor: pointer;
+}
+.assessment-preview .checkbox {
+  padding: 0 10px 0 0 !important;
+}
+
+.assessment-preview .search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.assessment-preview .search-input {
+  margin-left: 15px;
+}
+.assessment-preview .search-input input {
+  font-size: 18px;
+}
+
+.assessment-preview .question-wrapper {
+  padding: 30px 25px 0 30px;
+}
+
+.assessment-preview .question-text {
+  max-width: 70%;
+}
+
+.assessment-preview .question-text,
+.assessment-preview .question-text p {
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.assessment-preview .select-all-question-wrapper .select-all-question {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 17px 0 18px 30px;
+}
+
+.assessment-preview .select-all-question-wrapper h6 {
+  padding: 10px 0;
+  font-weight: 500;
+  font-family: "poppins";
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.assessment-preview .select-all-question-wrapper .search-bar {
+  padding: 17px 19px 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .admin-dashboard .main-container .title h1 {
+    font-size: 25px;
+    line-height: 26px;
+  }
+}
+.no-qn-text h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  color: #231f20;
+  text-align: center;
+}
+.loading-qn-preview {
+  text-align: center;
+}

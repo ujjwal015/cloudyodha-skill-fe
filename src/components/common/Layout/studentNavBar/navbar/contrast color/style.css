@@ -1,0 +1,13 @@
+.custom-header {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.color-box {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  cursor: 'pointer';
+}

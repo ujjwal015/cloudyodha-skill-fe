@@ -1,0 +1,51 @@
+.form-group-wrapper-profile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-group-profile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.uploaded-file-container-profile {
+  display: flex;
+}
+
+.error-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #d70000;
+  padding-top: 7px;
+}
+
+.file-upload-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-upload-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+  font-weight: bold;
+}
+
+.file-upload-label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.uploaded-file-name-profile {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555;
+}

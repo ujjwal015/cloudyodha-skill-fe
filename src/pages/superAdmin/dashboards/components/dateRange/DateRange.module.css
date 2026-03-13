@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dateButton {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.calendarWrapper {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  z-index: 100;
+}
+
+.calendarFooter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dateButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db; /* Neutral border */
+  background-color: #ffffff;
+  color: #374151;
+  cursor: pointer;
+  min-width: 220px;
+  text-align: left;
+  transition: all 0.25s ease-in-out;
+}
+
+.dateButton:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.dateButton:focus {
+  outline: none;
+  border-color: #2563eb; /* Blue */
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.4);
+}
+
+/* Calendar Icon */
+.icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+}

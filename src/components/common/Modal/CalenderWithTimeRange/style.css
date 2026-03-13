@@ -1,0 +1,46 @@
+.calender-modal-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calender-modal-title{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.calender-modal-calender-time-range{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.calender-modal-calender{
+    border-right: 2px solid black;
+}
+
+.calender-modal-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.calender-modal-timeRange{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin: auto;
+    width: 100%;
+}
+
+/* .calender-modal-cancel-button{
+    margin: 5px;
+} */

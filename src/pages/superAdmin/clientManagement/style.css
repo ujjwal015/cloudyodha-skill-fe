@@ -1,0 +1,142 @@
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-dashboard .main-content .title_Client {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between !important;
+
+  & h1 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input .search-icon {
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: rgba(46, 168, 219, 0.15);
+  margin-left: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+
+.search-input .search-icon.disabled {
+  opacity: 0.7;
+}
+
+.search-input .search-icon svg {
+  width: 15px;
+  height: 15px;
+}
+
+.admin-dashboard .main-content .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.admin-dashboard .main-content .title_Client .title-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+  flex-wrap: wrap;
+}
+
+.title_Client .title-btn button {
+  cursor: pointer;
+}
+
+.search-input .search-icon {
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: rgba(46, 168, 219, 0.15);
+  margin-left: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+
+.search-input .search-icon.disabled {
+  opacity: 0.7;
+}
+
+.search-input .search-icon svg {
+  width: 15px;
+  height: 15px;
+}
+
+.client_logo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.poc-title {
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 18px 22px 0;
+}
+
+.poc-title h2 {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.poc-title p {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.POC_card h1 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.POC_card p {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+
+.POC_card span {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.right_align {
+  text-align: right;
+}
+
+.btn_standard {
+  background-color: #231f20;
+}

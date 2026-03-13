@@ -1,0 +1,28 @@
+.chip--clear {
+    color: rgba(239, 68, 68, 1);
+    font-size: 12px;
+    font-weight: 500;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 3px 8px;
+    transition: all 0.3s ease;
+    & svg {
+      font-size: 14px;
+      margin-top: -2px;
+    }
+    &:hover {
+      background-color: rgba(239, 68, 68, 0.2);
+    }
+  }
+
+  .table-search-filter__filter--chips {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }

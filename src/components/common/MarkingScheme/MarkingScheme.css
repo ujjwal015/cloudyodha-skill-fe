@@ -1,0 +1,114 @@
+.marking-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+ width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.marking-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 12px;
+  font-family: 'inter', sans-serif;
+}
+
+.performance-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 5px;
+  font-family: 'inter', sans-serif;
+}
+
+.marking-bar-wrapper {
+  position: relative;
+  height: 20px;
+  margin-bottom: 12px;
+}
+
+.marking-bar {
+  display: flex;
+  height: 100%;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.range {
+  height: 100%;
+  flex: 1;
+}
+
+.poor {
+  background: linear-gradient(to right, #dc2626, #f97316);
+}
+
+.average {
+  background: linear-gradient(to right, #fbbf24, #84cc16);
+}
+
+.good {
+  background: linear-gradient(to right, #22c55e, #10b981);
+}
+
+/* Indicator (arrow + label) */
+.indicator {
+  position: absolute;
+  top: -24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 20.84% !important;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #fbbf24;
+  margin-bottom: 2px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #111827;
+  font-family: 'inter', sans-serif;
+}
+
+/* Range Labels Below */
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.label-poor {
+  color: #dc2626;
+}
+
+.label-average {
+  color: #f59e0b;
+  text-align: center;
+}
+
+.label-good {
+  color: #16a34a;
+  text-align: right;
+}
+
+@media screen and (max-width:991px) {
+.performance-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 23px !important;
+    
+}
+}

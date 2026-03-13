@@ -1,0 +1,43 @@
+.poc-title {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  justify-content: space-between;
+}
+
+.poc-title .poc-title-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  & h2 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  & p {
+    font-size: 11px;
+  }
+}
+
+.poc_list > li {
+  border: 1px solid rgba(228, 231, 236, 1);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+
+  & h1{
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-bottom: 5px;
+  }
+  & p span{
+    font-weight: 500;
+    opacity: 0.8;
+  }
+}
+
+.poc-model-close {
+  cursor: pointer;
+}

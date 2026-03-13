@@ -1,0 +1,19 @@
+.footer {
+  background: #fdfdfd;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.copy {
+  margin: 0;
+  font-size: 14px;
+  font-family: "inter";
+  color: #6c757d;
+}

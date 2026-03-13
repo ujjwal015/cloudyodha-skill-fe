@@ -1,0 +1,80 @@
+.custom-pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.custom-pagination .limit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.custom-pagination .limit p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #6e6b7b;
+}
+.custom-pagination .limit .limit-dropdown {
+  width: 50px;
+}
+.custom-pagination .page {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.custom-pagination .page p {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.675926px;
+  color: #231f20;
+}
+.custom-pagination .page p span {
+  font-weight: 700;
+}
+.custom-pagination .page .arrows {
+  display: flex;
+  gap: 0;
+}
+.custom-pagination .page .arrows > div {
+  cursor: pointer;
+  user-select: none;
+}
+.custom-pagination .page .arrows .leftArrow.disabled {
+  opacity: 0.5;
+}
+.custom-pagination .page .arrows .rightArrow.disabled {
+  opacity: 0.5;
+}
+.custom-pagination .limit .limit-dropdown fieldset {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.custom-pagination .limit .limit-dropdown #demo-simple-select {
+  padding: 0;
+  padding-right: 20px;
+  position: relative;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  color: #231f20;
+}
+.custom-pagination .limit .limit-dropdown {
+  width: 44px;
+}
+/* .custom-pagination .limit .limit-dropdown #demo-simple-select::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAPCAYAAADd/14OAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD7SURBVHgBfZI9TgMxEIWfZxtEtUiEOqUJzXKDcINJlzKcBG6w3ABxApaSCnKDVOCOLSOFIh2pbJ6j3UWbNXmSf0b6/DwzNhBldYpLVRxRhkJz8fg0BnMzsggbt0yBEqcQUDfxvUz0Lu24djuc2xfula4512nKOdvP326LC7s0wJzRSQrOuiMbtw4j+/ofbAbJTLRg4m/cxTTgvVnAPT/JAPyoViKYddVKeOiq7mmsufco25AdeR+ChOR0f23RQKvwg9sBSKg8gG5QV9teMWz0I5dFA9WErluoc5QrLXtQ+HNqZfghxqzyqwe5qsaBsvgqbOwZgR3HLAVF/QJRo2pKwXqargAAAABJRU5ErkJggg==);
+    width: 9px;
+    height: 13px;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-size: 100% 100%;
+} */

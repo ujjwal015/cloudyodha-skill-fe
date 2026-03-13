@@ -1,0 +1,15 @@
+.pagetopheader__title {
+    & h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    & p {
+      font-size: 12px;
+      display: inline-flex;
+      align-items: center;
+      font-weight: 500;
+      & a {
+        color: rgba(99, 112, 131, 1);
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+.attendance-clock-modal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.attendance-clock-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 80%;
+    margin: 14px auto;
+    border-bottom: 1px solid rgba(201, 201, 201, 1);
+}
+
+.attendance-clock-actions-btn{
+    display: flex;
+    justify-content: center;
+}

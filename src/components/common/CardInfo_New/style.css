@@ -1,0 +1,88 @@
+.dashboard-totalview {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.dashboard-total-listitem {
+  width: 25%;
+  background-color: #fff;
+  border: 1.5px solid rgba(228, 228, 231, 1);
+  border-radius: 12px;
+  padding: 20px;
+  padding-bottom: 15px;
+  & .card-title p {
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+  & .info {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    & .val-txt {
+      width: 50%;
+    }
+    & .val-txt h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  & .report {
+    display: inline-flex;
+    gap: 8px;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-top: 10px;
+    color: rgba(144, 149, 160, 1);
+
+    & .report-current-status {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      color: rgba(55, 181, 102, 1);
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .dashboard-totalview {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .dashboard-totalview .total-listitem {
+    width: calc(50% - 10px);
+  }
+}
+
+
+.widget-container{
+  width: 25%;
+  background-color: #fff;
+  border: 1.5px solid rgba(228, 228, 231, 1);
+  border-radius: 12px;
+  padding: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.widget-first-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.widget-text-section > h3{
+  color: "rgba(63, 66, 84, 0.7)";
+}
+
+.widget-second-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}

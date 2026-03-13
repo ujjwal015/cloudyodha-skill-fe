@@ -1,0 +1,30 @@
+.payRoll {
+  background-color: #e1ffed;
+  color: #2f992f;
+  font-size: 14px;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding: 7px;
+  user-select: none;
+  cursor: pointer;
+  width: 90px;
+  border-radius: 4px;
+}
+.freelancer {
+  background-color: #fff1c9;
+  color: #f69c32;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 7px;
+  user-select: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 4px;
+}

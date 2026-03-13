@@ -1,0 +1,303 @@
+.dashboard-nav {
+  display: flex;
+  justify-content: space-between;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 10px 1px rgba(213, 214, 236, 0.3);
+  padding: 9px 12px;
+  border-bottom: 1.4px solid rgba(223, 223, 223, 1);
+}
+
+.dashboard-nav .logo {
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  border-radius: 10px;
+  padding: 7px 12px;
+  border: 2px solid #2db6f5;
+  font-weight: 900;
+}
+
+.dashboard-nav .right-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-nav .right-nav .profile-img-wrapper {
+  width: 35px;
+}
+
+.dashboard-nav .right-nav > svg,
+.dashboard-nav .right-nav img,
+.dashboard-nav .right-nav .dropdown > p {
+  cursor: pointer;
+}
+
+.dashboard-nav .right-nav .dropdown {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-nav .right-nav .dropdown .option p {
+  cursor: pointer;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options {
+  position: absolute;
+  width: 180px;
+  top: 40px;
+  z-index: 990;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0px 6px 34px 0.2px rgba(215, 219, 222, 0.4);
+  border-radius: 10px;
+}
+
+/* .dashboard-nav .right-nav .dropdown:hover .dropdown-options {
+  display: block;
+} */
+
+.dashboard-nav .right-nav .dropdown > p {
+  display: flex;
+  color: #000;
+  font-family: "Poppins" !important;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.dashboard-nav .right-nav .dropdown > p span {
+  margin-left: 5px;
+}
+
+.dashboard-nav .right-nav .dropdown > p span svg {
+  width: 12px;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options .option {
+  padding: 8px;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options p {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 2px 0;
+  padding: 6px 10px;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options p:hover {
+  background: rgba(79, 84, 123, 0.05);
+  border-radius: 4px;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options p span {
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  width: 20px;
+}
+
+.dashboard-nav .right-nav .dropdown .dropdown-options p.check-admin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+  color: #231f20;
+  margin-top: 0;
+}
+
+.dashboard-nav .logo img {
+  max-width: 80px;
+  display: block;
+}
+
+/* responsive for 1200px tp 1599px  */
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+  .dashboard-nav .right-nav > svg {
+    width: 18px;
+  }
+
+  .dashboard-nav .right-nav .dropdown {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.notification-wrapper {
+  position: relative;
+  background: #f5f5f9;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-wrapper .bell-icon {
+  user-select: none;
+  cursor: pointer;
+  width: 20px;
+}
+
+.notification-wrapper .notification-dropdown {
+  position: absolute;
+  width: 394px;
+  top: 43px;
+  z-index: 100;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0px 6px 34px 0.2px rgba(215, 219, 222, 0.4);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.notification-wrapper .notification-dropdown .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+  padding: 19px 34px;
+}
+
+.notification-wrapper .notification-dropdown .title-wrapper .title {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #260944;
+}
+
+.notification-wrapper .notification-dropdown .title-wrapper span {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #1ab6f7;
+  padding: 5px 15px;
+  border-radius: 36px;
+}
+
+.notification-wrapper .notification-dropdown .notification-lists {
+  padding: 22px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.notification-wrapper .notification-dropdown .notification-lists li {
+  display: flex;
+  gap: 15px;
+}
+
+.notification-wrapper .notification-dropdown .notification-lists li .img img {
+  margin: 0;
+  width: 51px;
+  height: 51px;
+}
+
+.notification-wrapper .notification-dropdown .notification-lists li .info h5 {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2a3547;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.notification-wrapper .notification-dropdown .notification-lists li .info p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a6a85;
+}
+
+.notification-wrapper .notification-dropdown .see-all {
+  padding: 0 34px;
+  margin-bottom: 19px;
+}
+
+.notification-wrapper .notification-dropdown .see-all button {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 15px 0;
+  width: 100%;
+  color: #2ea8db;
+  border: 1px solid #2ea8db;
+  border-radius: 5px;
+  text-transform: unset;
+}
+
+.notification-dropdown {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  padding: 2px;
+  scrollbar-color: rgb(21, 149, 192) rgb(242, 243, 243);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(21, 149, 192);
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgb(223, 233, 236);
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .notification-dropdown {
+    height: 200px;
+  }
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .notification-dropdown {
+    height: 200px;
+  }
+}
+
+/* Medium Devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .notification-dropdown {
+    height: 200px;
+  }
+}
+
+/* Large Devices (large desktops or wide screens) */
+@media only screen and (min-width: 1025px) {
+  .notification-dropdown {
+    height: 350px;
+  }
+}

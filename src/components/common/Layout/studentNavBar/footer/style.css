@@ -1,0 +1,70 @@
+.outer-box {
+  height: calc(100vh - 96px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+
+.student-footer {
+  max-width: 1776px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 0 20px;
+  height: 40px;
+}
+.student-footer h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 21px;
+}
+.student-footer .logo {
+  cursor: pointer;
+}
+
+.student-footer .logo img {
+  width: 100px;
+}
+/* responsive for 1200px tp 1599px  */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .student-footer {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1860px) {
+  .student-footer {
+    max-width: 1330px;
+  }
+}
+@media (max-width: 900px) {
+  .outer-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .student-footer h1 {
+    font-size: 12px;
+  }
+  .student-footer {
+    justify-content: center;
+  }
+  .student-footer .logo img {
+    width: 90px;
+  }
+}

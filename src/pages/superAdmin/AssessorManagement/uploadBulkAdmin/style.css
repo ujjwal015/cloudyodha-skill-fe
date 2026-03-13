@@ -1,0 +1,271 @@
+.main-container {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  width: calc(81.5% - 26px);
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+.create-question-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.create-question-text {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.question-heading-text h1 {
+  font-size: 23px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  color: #231f20;
+}
+
+.view-list-btn {
+  /* margin-top: 10px; */
+}
+
+.sub-admin-wrapper .tab-content {
+  padding: 20px;
+}
+
+.create-question-form-wrapper {
+  /* height: 400px; */
+  background-color: white;
+  width: 100%;
+  margin-top: 24px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.create-question-form-wrapper h1 {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: #231f20;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.create-question-form {
+  margin-top: 20px;
+}
+
+.create-question-form .question-bank-label {
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.label-star {
+  color: red;
+}
+
+.create-question-form input[type="text"],
+select {
+  /* width: 100%; */
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.12533px solid #cbcbcb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 280px;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.5;
+  color: #231f20;
+}
+
+/* ::placeholder {
+    
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.5;
+  
+  } */
+/* select {
+    
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.5;
+    color: #231f20;
+  
+  } */
+/* option {
+    
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.5;
+    color: #231f20;
+  } */
+
+.upload-bulk .Submit-btn {
+  margin-top: 49px;
+  margin-left: 46px;
+}
+
+.upload-bulk .Submit-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b2ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #f7f8fb;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.upload-bulk .step-no {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #231f20;
+  margin-bottom: 22px;
+}
+
+.upload-bulk .note {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  width: 77%;
+}
+
+.upload-bulk .form-wrapper .form .select_md {
+  width: 88%;
+}
+
+.upload-bulk .file-input {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.upload-bulk .file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.upload-bulk .file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+  padding: 9px 6px;
+  background-color: #1ab6f7;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.upload-bulk .file-input__label svg {
+  height: 16px;
+  margin-right: 4px;
+}
+
+.upload-bulk .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.upload-bulk .title .title-text {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 15px;
+}
+
+.upload-bulk .title .title-text svg {
+  cursor: pointer;
+}
+
+.upload-bulk .title .title-text h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #231f20;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 39px;
+}
+
+.upload-bulk .title .view-list-btn-text {
+  margin-top: 0;
+}
+
+.upload-bulk .upload-excel {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #231f20;
+}
+
+.upload-bulk .upload-excel .mandatory {
+  color: red;
+}
+
+.download-file {
+  cursor: pointer;
+  font-family: "Poppins";
+  color: #1ab6f7;
+  font-size: 12px;
+}
+
+.download-file path {
+  fill: #1ab6f7;
+}
+
+.upload-bulk .sub-admin-wrapper {
+  background: #fdfdfd;
+  border-radius: 10px;
+}

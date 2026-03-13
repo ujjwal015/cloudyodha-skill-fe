@@ -1,0 +1,23 @@
+.addnewmeeting-modal-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.addnewmeeting-modal-dialog-title{
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.addnewmeeting-modal-title > h3{
+    color: #101828;
+}
+
+.addnewmeeting-modal-title > p{
+    color: #475467;
+    font-size: 14px;
+}
+
+
+.addnewmeeting-modal-close{
+    cursor: pointer;
+}

@@ -1,0 +1,792 @@
+@import url("../../../../components/common/table/style.css");
+.assessment .preview-btn {
+  background-color: #e9f8ff;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  gap: 3;
+  cursor: pointer;
+  color: #62a6c3;
+}
+
+.assessment .get-link-btn button {
+  background-color: #2fa8d8;
+  color: #ffffff;
+  border: unset;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.assessment .active-inactive-btn button {
+  border: unset;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 600;
+  cursor: pointer;
+}
+.assessment .active-inactive-btn .active {
+  background-color: #e4fce2;
+  color: #39a045;
+  padding: 6px 17px;
+}
+.assessment .active-inactive-btn .inactive {
+  background-color: #f5f1f3;
+  color: #fe2d34;
+  padding: 6px 12px;
+}
+
+.copy-link-dialog-wrapper .MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: 623px !important;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.getLink-Modal {
+  width: 623px;
+  padding: 21px 26px 28px 28px;
+  box-sizing: border-box;
+}
+.getLink-Modal h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1d1d1d;
+}
+
+.copy-link-wrapper {
+  border: 1.12533px solid #e8e8e8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 13px 7px;
+  margin-top: 31px;
+}
+.copy-link-dialog-wrapper .icon {
+  border-right: 1.5px solid #e8e8e8;
+  padding-right: 10px;
+}
+.copy-link-dialog-wrapper .text-wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.copy-link-dialog-wrapper .text-wrapper span {
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4f547b;
+  opacity: 0.5;
+  overflow: hidden;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.copy-link-wrapper .copy-button-wrapper {
+  width: 20%;
+}
+.copy-link-wrapper .copy-button-wrapper button {
+  width: 100%;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: auto;
+  padding: 12px;
+  border: unset;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.copy-link-wrapper .copy-button-wrapper .copy-btn {
+  background: #4d90fd;
+}
+.copy-link-wrapper .copy-button-wrapper .copied-btn {
+  background-color: #1cc35a;
+}
+
+.exam-management-page .title .title-text svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.exam-management-page .form-title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #231f20;
+  margin-bottom: 10px;
+}
+
+.exam-management-page .create-btn {
+  padding: 14px 22px !important;
+}
+
+.search-input .search-icon {
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: rgba(46, 168, 219, 0.15);
+  margin-left: 9px;
+  cursor: pointer;
+}
+.search-input .search-icon:hover svg g {
+  opacity: 1;
+}
+.MuiStepIcon-root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  display: block;
+  -webkit-transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgba(0, 0, 0, 0.38);
+}
+.MuiStepIcon-text {
+  fill: #fff;
+  font-size: 0.75rem;
+  font-family: "Poppins";
+}
+
+.main-content .main-container {
+  width: 100%;
+}
+.main-container-wrapper {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  width: calc(81.5% - 26px);
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.rich_input_box strong {
+  font-weight: bold;
+}
+.rich_input_box em {
+  font-style: italic;
+}
+
+.add-question-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.question-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.admin-dashboard .main-container-wrapper .sub-admin-wrapper {
+  background: #fdfdfd;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ddd;
+  border-left: 4px solid #00b2ff;
+}
+
+.sub-admin-wrapper .tab-content {
+  padding: 20px;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+.content_title_Box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  width: 99%;
+}
+
+.title_card {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.title_card h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  color: #231f20;
+}
+
+.heading-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  color: #231f20;
+  margin-left: 10px;
+}
+
+.question-container {
+  background: #ffffff;
+  border-radius: 16px;
+  margin-top: 39px;
+}
+
+.add-question-container {
+  background: #ffffff;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+
+/* ====== tejas ======== */
+.rich_input_box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.select_md {
+  width: 330px;
+}
+
+.options_box {
+  width: 99%;
+}
+
+.option_card {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.option_title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #231f20;
+}
+
+.option_title h1 span {
+  color: red;
+}
+
+.option_content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.option_content fieldset {
+  border: none;
+}
+
+.option_content textarea {
+  border: 1px solid #cac9c9;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.option_content input[type="radio"] {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.option_textInputBox textarea {
+  width: 530px;
+  height: 60px;
+}
+
+.option_upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.option_upload div {
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #f7f8fb;
+}
+
+.option_upload div:hover {
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #b9e5f8;
+}
+
+.button_box {
+  margin-top: 39px;
+  display: flex;
+  gap: 30px;
+}
+
+.marks_input_div textarea {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #f7f8fb;
+}
+.marks_input_div h6 {
+  background: rgba(203, 203, 203, 0.1);
+  border: 1.12533px solid #cbcbcb;
+  border-radius: 5px;
+  padding: 13px 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #231f20;
+}
+
+/* Large Device */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .save_and_nxt {
+    width: 200px;
+  }
+}
+
+/* Xtra Large */
+@media screen and (min-width: 1920px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+}
+
+.add-option-btn {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  background: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1.5px solid #cbcbcb;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+}
+.edit-qn-notes {
+  max-width: 700px;
+  background: #dff5f7;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+.edit-qn-notes span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #397a80;
+  opacity: 0.7;
+}
+.main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.title-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-content .title h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #231f20;
+  margin-bottom: 10px;
+  line-height: 31px;
+}
+
+.title_card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 50%;
+}
+
+.subadmin-table {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px -4px 19px rgba(14, 118, 140, 0.03);
+  border-radius: 10px;
+}
+
+.subadmin-btn button {
+  margin-left: 15px;
+}
+
+.subadmin-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: arial, sans-serif;
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+}
+
+.questionbank_options {
+  display: flex;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.questionbank_card {
+  background: #f7f8fb;
+}
+
+.questionbank_card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.questionbank_card_imageBox {
+  background-color: #f7f8fb;
+  width: 99%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.questionbank_card_title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #4f547b;
+}
+
+.title .titleBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 50%;
+}
+
+/* ========================================= */
+.addBox {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.sub-admin-wrapper {
+  background: #fdfdfd;
+  border-radius: 10px;
+}
+
+.duo_inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.duo_inputBox input {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.form-wrapper .form .select_md {
+  width: 330px;
+}
+
+.input_lg input {
+  width: 650px;
+}
+
+.input_lg .input_select {
+  width: 678px;
+}
+
+.buttonsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+/* Small */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+}
+
+/* Medium */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .admin-dashboard .main-content .questionbank_card {
+    height: 250px;
+    width: 280px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+}
+
+/* Large  */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .admin-dashboard .main-content .questionbank_card {
+    height: 296px;
+    width: 305px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .action_btn_lg button {
+    width: 175px;
+  }
+}
+
+/* Xtra Large */
+@media screen and (min-width: 1920px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .admin-dashboard .main-content .questionbank_card {
+    height: 320px;
+    width: 330px;
+    border-radius: 10px;
+  }
+
+  .action_btn_lg button {
+    width: 175px;
+  }
+}
+.sub-admin-wrapper .form-wrapper {
+  width: 70%;
+}
+
+.exam-viewlocation-btn{
+  border: none;
+  background-color: #00b2ff;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-family: "Poppins";
+  cursor: pointer;
+  padding: 10px;
+}
+
+.addNewPOC_container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+
+.training-partner-modal {
+  padding: 10px;
+  min-width: auto;
+}
+
+.training-partner-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.training-partner-modal-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.training-partner-modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.training-partner-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.autocomplete-wrapper .add-icon:hover {
+  color: #0099cc !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.autocomplete-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-wrapper label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.autocomplete-wrapper .mandatory {
+  color: red;
+}
+
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-container .search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.autocomplete-wrapper .autocomplete-container .dropdown-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 250px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-top: 1px;
+}
+
+.autocomplete-wrapper .autocomplete-container .dropdown-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.autocomplete-wrapper .autocomplete-container .dropdown-item:hover {
+  background-color: #f5f9ff;
+}
+
+.autocomplete-wrapper .autocomplete-container.dropdown-item.selected {
+  background-color: #e6f2ff;
+  font-weight: 500;
+}
+
+.autocomplete-wrapper .autocomplete-container .dropdown-loading {
+  padding: 10px;
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+.autocomplete-wrapper .autocomplete-container .dropdown-arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.error-input {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,152 @@
+.main-container {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  width: calc(81.5% - 26px);
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+.Result-Review-table img {
+  display: none;
+}
+.img-tooltip img {
+  display: flex;
+  width: 50px !important;
+}
+.result-review {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-family: Poppins;
+}
+
+.general-duty-container {
+  margin-bottom: 32px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.general-duty {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.candidate-name {
+  padding: 16px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.candidate-name p {
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: gray;
+  font-size: 13px;
+  padding-bottom: 16px;
+  font-family: poppins;
+}
+
+.no-list-table {
+  height: 100px;
+}
+
+.no-list-table td {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rotate {
+  font-size: 30px;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  /* transition: transform 150ms ease; */
+}
+
+.activityHeaderWrapper {
+  /* border: 1px solid magenta; */
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 0% 5% 0% 5%;
+  width: 100%;
+  margin-bottom: -2%;
+}
+
+.activityFooterWrapper {
+  font-size: 12px;
+  /* border: 1px solid magenta; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5% 0% 5%;
+  width: 100%;
+  margin-top: -2.3%;
+}
+
+.activityFooterWrapper div,
+.activityHeaderWrapper div {
+  width: 200px;
+}
+
+.activityFooterWrapper :nth-child(3) {
+  text-align: center;
+}
+
+.activityFooterWrapper :nth-child(5) {
+  text-align: right;
+}
+
+.activityHeaderWrapper :nth-child(6) {
+  text-align: right;
+}
+
+.candImgContainer {
+  width: 300px;
+}
+
+.candImage {
+  width: 100%;
+}
+
+.question_container {
+  margin-top: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.question_container h3 {
+  font-family: "poppins";
+  font-size: 16px;
+  color: black;
+  font-style: bold;
+  font-weight: 600;
+}
+.question_container p {
+  font-family: "poppins";
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+.question_container hr {
+  margin: 0;
+  border: solid #F4F4F5 0.5px;
+}

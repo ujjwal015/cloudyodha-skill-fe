@@ -1,0 +1,126 @@
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+.admin-dashboard .main-content .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.my-account-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.my-account-wrapper .tabs-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.my-account-wrapper .tabs-wrapper .tab {
+  cursor: pointer;
+  color: #1ab6f7;
+  border-radius: 6px;
+  border: 1px solid #1ab6f7;
+  padding: 8px 15px;
+  font-size: 14px;
+  text-transform: unset;
+}
+.my-account-wrapper .tabs-wrapper .tab.active {
+  color: #ffffff;
+  background: #1ab6f7;
+}
+.my-account-wrapper .tab-content {
+  padding: 30px;
+  background: #fdfdfd;
+  border-radius: 10px;
+}
+.my-account-wrapper .tab-content .edit-profile {
+  width: 100%;
+  display: flex;
+}
+.my-account-wrapper .tab-content .edit-profile .form-wrapper {
+  width: 60%;
+}
+.my-account-wrapper .tab-content .edit-profile .img-upload-wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-account-wrapper .tab-content .edit-profile.social-media-wrapper .error-box {
+  margin-bottom: 25px;
+}
+
+.my-account-wrapper .tab-content .edit-profile.security .form-wrapper {
+  width: 70%;
+}
+
+.my-account-wrapper .tab-content .edit-profile .img-wrapper {
+  width: 40%;
+}
+.my-account-wrapper .tab-content .profile .profile-wrapper .profile-list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.my-account-wrapper .tab-content .edit-profile .profile-wrapper .profile-list {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.my-account-wrapper .tab-content .edit-profile .img-upload-wrapper .img_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.my-account-wrapper .tab-content .edit-profile .img-upload-wrapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 1%;
+  border: 2px solid #1ab5f78a;
+}
+
+.my-account-wrapper .img-upload-wrapper .img-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* padding: 50px 0 0; */
+}
+.my-account-wrapper .img-upload-wrapper .icon-wrapper {
+  display: flex;
+  gap: 25px;
+}
+.my-account-wrapper .img-upload-wrapper .icon-wrapper svg {
+  cursor: pointer;
+}
+.my-account-wrapper .img-upload-wrapper .img-upload-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.my-account-wrapper .action-btn {
+  justify-content: start;
+}
+.my-account-wrapper .logout-btn {
+  color: #2ea8db;
+  border: 1px solid #2ea8db;
+  padding: 8px 22px;
+  border-radius: 50px;
+  background: transparent;
+  font-family: "Poppins";
+  cursor: pointer;
+}

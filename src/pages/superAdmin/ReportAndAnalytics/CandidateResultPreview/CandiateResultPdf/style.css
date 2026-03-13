@@ -1,0 +1,66 @@
+.pdf-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+.main-container-pdf {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  /* width: calc(81.5% - 26px); */
+  min-width: 100%;
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.pdf-divider {
+  padding-top: 50px;
+}
+.general-text {
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+}
+.repo-text{
+    padding-top: 20px;
+}
+.link-text{
+  margin-top: 10px;
+}
+
+.inner_pdf_section {
+  gap: 20px;
+  align-items: start;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.pdf-container hr {
+  border-bottom-width: 3px;
+  padding: 0 30px;
+  width: 740px;
+  border-color: #bebebe;
+}
+.time-text {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.time-text span,
+.pdf-time-container span {
+  color: #5f5f5f;
+}
+.pdf-time-container {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rtw {
+  position: absolute;
+  top: -35px;
+  left: 90px;
+}
+

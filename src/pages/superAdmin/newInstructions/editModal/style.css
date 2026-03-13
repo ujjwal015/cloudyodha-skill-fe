@@ -1,0 +1,196 @@
+/* instruction-modal.css */
+
+.instruction-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.instruction-modal-container {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  overflow: hidden;
+}
+
+.instruction-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: none;
+}
+
+.instruction-modal-header h2 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.instruction-close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+}
+
+.instruction-modal-subheader {
+  color: #666;
+  font-size: 14px;
+  padding: 0 24px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.instruction-modal-content {
+  padding: 20px 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.instruction-form-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.instruction-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.instruction-full-width {
+  width: 100%;
+}
+
+.instruction-field-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.instruction-required-asterisk {
+  color: #ff4d4f;
+}
+
+.instruction-form-input,
+.instruction-form-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.instruction-select-container {
+  width: 100%;
+}
+
+.instruction-editor-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.instruction-editor-container .quill {
+  height: 250px;
+  border-radius: 6px;
+}
+
+.instruction-editor-container .ql-container {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  min-height: 200px;
+}
+
+.instruction-editor-container .ql-toolbar {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.instruction-quill-error .ql-container {
+  border-color: #ff4d4f;
+}
+
+.instruction-error-message {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.instruction-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+  gap: 12px;
+  border-top: 1px solid #eee;
+}
+
+.instruction-cancel-button {
+  padding: 8px 16px;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.instruction-add-button {
+  padding: 8px 24px;
+  background-color: #1677ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.instruction-add-button:hover {
+  background-color: #4096ff;
+}
+
+.instruction-cancel-button:hover {
+  border-color: #bfbfbf;
+  background-color: #f9f9f9;
+}
+
+.instruction-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+/* Override ReactQuill styles to match design */
+.instruction-editor-container .ql-snow .ql-toolbar {
+  border: 1px solid #d9d9d9;
+}
+
+.instruction-editor-container .ql-snow .ql-container {
+  border: 1px solid #d9d9d9;
+  border-top: none;
+}
+
+.instruction-cancel-button, 
+.instruction-add-button {
+  /* Add these properties to ensure buttons are clickable */
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
+}

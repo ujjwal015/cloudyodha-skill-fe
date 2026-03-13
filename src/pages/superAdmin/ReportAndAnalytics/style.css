@@ -1,0 +1,12 @@
+.main-container {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  width: calc(81.5% - 26px);
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.main-container::-webkit-scrollbar {
+  display: none;
+}

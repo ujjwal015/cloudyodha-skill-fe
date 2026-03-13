@@ -1,0 +1,133 @@
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-dashboard .main-content .title h1 svg {
+  cursor: pointer;
+}
+
+.admin-dashboard .main-content .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.sub-admin-wrapper {
+  background: #fdfdfd;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.sub-admin-wrapper .tabs-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0 0 40px;
+  border-bottom: 1px solid #ededed;
+}
+.sub-admin-wrapper .tabs-wrapper .tab {
+  cursor: pointer;
+}
+.sub-admin-wrapper .tabs-wrapper .tab.active {
+  color: #2ea8db;
+  border-bottom: 2px solid #2ea8db;
+  padding-bottom: 10px;
+}
+.sub-admin-wrapper .tabs-wrapper .tab h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.action-btn_userProfile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  background-color: #f7f8fb;
+}
+table {
+  font-style: normal;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+td,
+th {
+  text-align: left;
+  padding: 14px 10px;
+  border: 1px solid #d8d7d7;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.84);
+  letter-spacing: 0.5px;
+}
+th {
+  background: #f7f8fb;
+  font-weight: 600;
+}
+td {
+  font-weight: 500;
+}
+.role-table-input .text-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.subFeature-table-input .text-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.user-role-tb input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  background-color: #fff;
+  position: relative;
+}
+.user-role-tb input[type="checkbox"]:checked {
+  background-color: #2ea8db;
+  border: 1px solid #2ea8db;
+}
+
+.user-role-tb input[type="checkbox"]:checked::before {
+  content: "\2714";
+  /* content: "\2212"; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #fff;
+}
+.user-role-tb-bg-unchecked input[type="checkbox"]:checked {
+  background-color: #2ea8db;
+  border: 1px solid #2ea8db;
+}
+.user-role-tb-unchecked input[type="checkbox"]:checked::before {
+  /* content: "\2714"; */
+  content: "\2212";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #fff;
+}
+
+.role-table-input td:first-child {
+  font-weight: 600;
+}
+.user-role-tb h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}

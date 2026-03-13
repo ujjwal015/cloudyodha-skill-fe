@@ -1,0 +1,40 @@
+.tooltip-container {
+  min-width: 100px;
+  padding: 5px;
+}
+.tooltip-container-tophead{
+  justify-self: center;
+  & p {
+    font-weight:bolder;
+    /* font-size: large; */
+  }
+  margin-bottom: 10px;
+}
+.tooltip-container-head {
+  border-bottom: 1.2px solid rgba(242, 244, 248, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.tooltip-container-body {
+  margin-top: 10px;
+  & div {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    & p {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      & .icon {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: block;
+      }
+    }
+  }
+}

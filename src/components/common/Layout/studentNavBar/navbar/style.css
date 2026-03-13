@@ -1,0 +1,279 @@
+:root {
+  --title-font-size: 14px;
+  --subtitle-font-size: 13px;
+  --content-font-size: 12px;
+}
+
+
+.user-page nav {
+  box-shadow: 0px 4px 10px 1px rgba(213, 214, 236, 0.3);
+  background: #fdfdfd;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-page .hscreen {
+  min-height: calc(100svh - 90px);
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.user-nav {
+  max-width: 1776px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-nav .logo {
+  cursor: pointer;
+}
+
+/* responsive for 1200px tp 1599px  */
+.user-nav .logo img {
+  width: 70px;
+}
+.user-nav .right-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .user-nav {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1860px) {
+  .user-nav {
+    max-width: 1330px;
+  }
+}
+.user-nav .right-nav .notification-wrapper > svg,
+.user-nav .right-nav .profile-img img,
+.user-nav .right-nav .dropdown > p {
+  cursor: pointer;
+}
+.user-nav .profile-img-wrapper img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.user-nav .dropdown > p {
+  display: flex;
+  gap: 4px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: var(--content-font-size);
+  & svg {
+    width: 10px;
+  }
+}
+p.exam-timer {
+  font-size: var(--content-font-size) !important;
+  display: flex;
+  gap: 5px;
+  & span {
+    color: #1ab6f7;
+    display: block;
+  }
+}
+.user-nav .dropdown .dropdown-options {
+  position: absolute;
+  width: 170px;
+  top: 40px;
+  z-index: 100;
+  right: -5px;
+  background: #ffffff;
+  box-shadow: 0px 6px 34px 0.2px rgba(215, 219, 222, 0.4);
+  border-radius: 10px;
+}
+
+.user-nav .dropdown .dropdown-options::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  position: absolute;
+  top: -22px;
+  right: 25px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.user-nav .dropdown .dropdown-options .option {
+  padding: 8px;
+}
+.user-nav .dropdown .dropdown-options .option li {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: var(--content-font-size);;
+  line-height: 13px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.user-nav .dropdown .dropdown-options .option li:hover {
+  background: #4f547b0d;
+  border-radius: 8px;
+}
+.user-nav .dropdown .dropdown-options .option span {
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.user-nav .dropdown .dropdown-options p {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: var(--title-font-size);
+  line-height: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.user-nav .dropdown .dropdown-options .logout-admin {
+  background-color: #dfdfdf8a;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+
+.user-nav .dropdown .dropdown-options p span {
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.user-nav .dropdown .dropdown-options p.check-admin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--title-font-size);;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #231f20;
+  margin-top: 0;
+}
+.user-nav .right-nav .profile-img img {
+  width: 30px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+  .user-nav .right-nav .notification-wrapper > svg {
+    width: 18px;
+  }
+  .user-nav .right-nav .dropdown {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.user-nav .notification-wrapper {
+  position: relative;
+}
+.user-nav .notification-wrapper .bell-icon {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.user-nav .notification-wrapper .notification-dropdown {
+  position: absolute;
+  width: 394px;
+  top: 73px;
+  z-index: 100;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0px 6px 34px 0.2px rgba(215, 219, 222, 0.4);
+  border-radius: 10px;
+}
+
+.user-nav .notification-wrapper .notification-dropdown .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+  padding: 19px 34px;
+}
+.user-nav .notification-wrapper .notification-dropdown .title-wrapper .title {
+  font-family: Poppins;
+  font-size: var(--title-font-size);
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #260944;
+}
+
+.user-nav .notification-wrapper .notification-dropdown .title-wrapper span {
+  font-family: Poppins;
+  font-size: var(--title-font-size);
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #1ab6f7;
+  padding: 5px 15px;
+  border-radius: 36px;
+}
+.user-nav .notification-wrapper .notification-dropdown .notification-lists {
+  padding: 22px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.user-nav .notification-wrapper .notification-dropdown .notification-lists li {
+  display: flex;
+  gap: 15px;
+}
+.user-nav .notification-wrapper .notification-dropdown .see-all {
+  padding: 0 34px;
+  margin-bottom: 19px;
+}
+
+.user-nav .notification-wrapper .notification-dropdown .see-all button {
+  font-family: "Poppins";
+  font-size: var(--title-font-size);
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 15px 0;
+  width: 100%;
+  color: #2ea8db;
+  border: 1px solid #2ea8db;
+  border-radius: 5px;
+  text-transform: unset;
+}
+.user-nav .notification-wrapper .notification-dropdown .notification-lists li .info h5 {
+  font-family: Poppins;
+  font-size: var(--title-font-size);
+  font-weight: 600;
+  line-height: 24px;
+  color: #2a3547;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+.user-nav .notification-wrapper .notification-dropdown .notification-lists li .info p {
+  font-family: Poppins;
+  font-size: var(--title-font-size);
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a6a85;
+}
+.head-timmer {
+  font-size: var(--content-font-size);
+  font-weight: 500;
+  & span {
+    color: #2ea8db;
+  }
+}
+@media (max-width: 600px) {
+  .dash-name {
+    display: none;
+  }
+  .user-page .hscreen {
+    padding: 10px;
+  }
+}

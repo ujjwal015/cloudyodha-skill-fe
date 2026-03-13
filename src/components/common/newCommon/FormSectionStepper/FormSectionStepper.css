@@ -1,0 +1,28 @@
+.form-section-stepper {
+  border-bottom: 1px solid rgba(223, 223, 223, 1);
+  padding: 10px 0;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 12px;
+  & a {
+    color: rgba(99, 112, 131, 1);
+  }
+}
+
+.form-section-stepper__step--active {
+  color: rgba(38, 38, 38, 1);
+  font-weight: 600;
+  position: relative;
+}
+.form-section-stepper__step--active::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(38, 38, 38, 1);
+}

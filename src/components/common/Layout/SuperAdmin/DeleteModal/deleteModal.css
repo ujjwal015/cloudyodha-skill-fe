@@ -1,0 +1,7 @@
+#trigger_button button{
+    width: "100%";
+    color: "#00B2FF";
+    font-size: "13px";
+    text-transform: "capitalize";
+    border:"1px solid red";
+}

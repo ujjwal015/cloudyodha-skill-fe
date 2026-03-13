@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resultStats_title {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  
+  .main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  }
+  
+  .main-content::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .main-content .title {
+    margin-bottom: 20px;
+  }
+ 
+  
+  .main-content::-webkit-scrollbar-track {
+    background: #e9e9e9;
+  }
+  
+  .main-content::-webkit-scrollbar-thumb {
+    background-color: #a8e4ff;
+    border-radius: 10px;
+    border: 2px solid #2ea8db26; /* Customize the border color */
+  }
+  
+  .main-content::-webkit-scrollbar-thumb:hover {
+    background: #80bdff; /* Change the thumb color on hover */
+  }
+   
+  
+  .loader_container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    font-size: 1em;
+    text-align: flex-start;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  .basic-details-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+  }
+  .basic-text{
+    font-size: 14px;
+    width: '30%';
+    padding: 10px;
+    & strong{
+     color: #00000090;
+     font-weight: 600;
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .basic-details-container {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+  }
+  
+  

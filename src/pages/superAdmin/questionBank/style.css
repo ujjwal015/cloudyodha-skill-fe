@@ -1,0 +1,148 @@
+/* Small */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+
+  .admin-dashboard .main-content .questionbank_card {
+    height: 150px;
+    width: 230px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+
+  .admin-dashboard .main-content .questionbank_card {
+    height: 250px;
+    width: 280px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+}
+
+/* Large  */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  .admin-dashboard .main-content .questionbank_card {
+    height: 296px;
+    width: 305px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+}
+
+/* Xtra Large */
+@media screen and (min-width: 1920px) {
+  .admin-dashboard .main-content .title-home h1 {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .admin-dashboard .main-content .questionbank_card {
+    height: 320px;
+    width: 330px;
+    border-radius: 10px;
+  }
+}
+
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-dashboard .main-content .title-home {
+  /* border: 1px solid teal; */
+  margin-bottom: 39px;
+}
+
+.admin-dashboard .main-content .title-home h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  color: #231f20;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard .main-content .questionBank-container {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px -4px 19px rgba(14, 118, 140, 0.03);
+  border-radius: 10px;
+  padding: 47px 0px 47px;
+  overflow: hidden;
+  /* border: 1px solid magenta; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.admin-dashboard .main-content .title-home h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #231f20;
+  margin-bottom: 10px;
+  line-height: 31px;
+}
+
+.admin-dashboard .main-content .questionbank_options {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-dashboard .main-content .questionbank_card {
+  background: #f7f8fb;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px 15px 20px 15px;
+  gap: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.admin-dashboard .main-content .questionbank_card_imageBox {
+  background-color: #f7f8fb;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-dashboard .main-content .questionbank_card_title {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-dashboard .main-content .questionbank_card_title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #4f547b;
+}

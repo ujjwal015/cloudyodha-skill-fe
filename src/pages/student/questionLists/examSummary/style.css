@@ -1,0 +1,223 @@
+.exam-summary-timer {
+  background: #fefefe;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px 20px 0px;
+}
+.exam-summary-timer .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.exam-summary .card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 30px;
+}
+.exam-summary .card-wrapper {
+  width: 100%;
+}
+.exam-summary .card-wrapper .card .title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.exam-summary .summary-table {
+  width: 921px;
+}
+
+.exam-summary .summary-table table thead {
+  background: #edefff;
+}
+.exam-summary .summary-table table thead tr th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.866px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #242731;
+  padding: 21px 74px;
+  text-align: center;
+}
+.exam-summary .summary-table table tbody tr td {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.057px;
+  line-height: 29px;
+  color: #242731;
+  padding: 43px 143px;
+  text-align: center;
+}
+
+.exam-summary .confirm-submit-title {
+  display: flex;
+  justify-content: center;
+}
+.exam-summary .confirm-submit-title h1 {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+.exam-summary .submit-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.exam-summary .submit-btn-wrapper .dark-outlined-btn {
+  border: 1px solid #1ab6f7;
+  color: #1ab6f7;
+}
+.exam-summary .submit-btn-wrapper .dark-blue-btn {
+  border: 1px solid #1ab6f7;
+  background-color: #1ab6f7;
+  color: #fff;
+}
+
+.exam-summary .submit-btn-wrapper button {
+  padding: 8px 20px;
+}
+
+@media (max-width: 1200px) {
+  .exam-summary .card {
+    padding: 90px 20px;
+  }
+  .exam-summary .confirm-submit-title h1 {
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+/* Variables
+================================== */
+/* Tables
+================================== */
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 1.2rem;
+  overflow: hidden;
+  list-style: none;
+  border: solid 2px #dfdfdf;
+  background: rgba(112, 128, 144, 0.2);
+  & h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  & p {
+    font-size: 12px;
+  }
+}
+
+/* Table column sizing
+================================== */
+.Rtable--2cols > .Rtable-cell {
+  width: 50%;
+}
+.Rtable--3cols > .Rtable-cell {
+  width: 33.33%;
+}
+.Rtable--4cols > .Rtable-cell {
+  width: 25%;
+}
+.Rtable--6cols > .Rtable-cell {
+  width: 16.67%;
+}
+
+/* Apply styles
+================================== */
+.Rtable {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+.Rtable-cell {
+  margin: -3px 0 0 -3px;
+  background-color: white;
+  border-color: #dfdfdf;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+}
+/* Cell styles
+================================== */
+.Rtable-cell--head {
+  background-color: #f7f8fb;
+  border-color: #dfdfdf;
+  padding: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Responsive
+==================================== */
+@media all and (max-width: 600px) {
+  .Rtable--collapse {
+    display: block;
+  }
+  .Rtable {
+    width: 100%;
+  }
+  .Rtable-cell {
+    padding: 1rem;
+  }
+  .exam-summary .confirm-submit-title h1 {
+    font-size: 15px;
+  }
+  .Rtable--collapse > .Rtable-cell {
+    width: 100% !important;
+  }
+  .Rtable--collapse > .Rtable-cell--foot {
+    margin-bottom: 1em;
+  }
+  .exam-summary .card {
+    margin: 50px 0;
+    padding: 30px 10px;
+  }
+}
+@media (max-height: 7in) {
+  .exam-summary {
+    height: 100%;
+  }
+}
+.no-flexbox .Rtable {
+  display: block;
+}
+.no-flexbox .Rtable > .Rtable-cell {
+  width: 100%;
+}
+@media all and (max-width: 1200px) {
+  .Rtable {
+    width: 100%;
+  }
+}

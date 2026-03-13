@@ -1,0 +1,22 @@
+.myoutlined-btn {
+  outline: none;
+  background-color: #fff;
+  border-radius: 8px;
+  color: rgba(38, 38, 38, 1);
+  padding: 10px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  border: 1.2px solid rgba(232, 232, 232, 1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.myoutlined-btn:hover {
+  border: 1.2px solid rgb(188, 188, 188);
+  background-color: #e8e8e8;
+}
+.myoutlined-btn svg {
+  font-size: 15px;
+}

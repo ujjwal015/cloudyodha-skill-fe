@@ -1,0 +1,102 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(0.95);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 20px 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .modal-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .modal-subtitle {
+    font-size: 0.75rem;
+    color: #666;
+    margin: 4px 0 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    color: #666;
+  }
+  
+  .table-container {
+    max-height: calc(90vh - 100px);
+    overflow-y: auto;
+    margin: 0 8px 16px;
+  }
+  
+  .skill-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.7rem;
+  }
+  
+  .skill-table th,
+  .skill-table td {
+    padding: 8px 14px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .skill-table th {
+    background-color: #E8E8EA;
+    font-weight: 600;
+    font-size: 0.75rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  .skill-table tr:nth-child(odd) {
+    background-color: #FAFAFA;
+  }
+  
+  .skill-table tr:hover {
+    background-color: #F5F5F5;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .table-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .table-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  

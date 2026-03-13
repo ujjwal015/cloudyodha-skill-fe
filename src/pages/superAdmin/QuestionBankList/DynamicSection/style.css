@@ -1,0 +1,133 @@
+.main-container {
+  background: #f7f8fb;
+  border-radius: 16px;
+  margin: 18px 0;
+  width: calc(81.5% - 26px);
+  padding: 40px 35px 60px 35px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+.create-question-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.create-question-text {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.question-heading-text h1 {
+  font-size: 23px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  color: #231f20;
+}
+.view-list-btn {
+  /* margin-top: 10px; */
+}
+
+.sub-admin-wrapper .tab-content {
+  padding: 20px;
+}
+.create-question-form-wrapper {
+  /* height: 400px; */
+  background-color: white;
+  width: 100%;
+  margin-top: 24px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.create-question-form-wrapper h1 {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: #231f20;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.create-question-form {
+  margin-top: 20px;
+}
+.create-question-form .question-bank-label {
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 5px;
+}
+.label-star {
+  color: red;
+}
+
+.create-question-form input[type="text"],
+select {
+  /* width: 100%; */
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.12533px solid #cbcbcb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 280px;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.5;
+  color: #231f20;
+}
+
+/* ::placeholder {
+  
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.5;
+
+} */
+/* select {
+  
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.5;
+  color: #231f20;
+
+} */
+/* option {
+  
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0.5;
+  color: #231f20;
+} */
+.next-step-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b2ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #f7f8fb;
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+}

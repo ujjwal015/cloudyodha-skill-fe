@@ -1,0 +1,419 @@
+.dashboard-topheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  & .dashboard-welcome {
+    & h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  & .dashboard-clockin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    .clockin-time {
+      border-right: 1px solid #ccc;
+      padding: 0 10px;
+      & p {
+        color: rgba(184, 192, 201, 1);
+        font-size: 11px;
+      }
+      & h3 {
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+    & button {
+      padding: 10px 16px;
+      font-size: 12px;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+      color: #ffff;
+      border-radius: 7px;
+    }
+    .btn-clockin {
+      background-color: rgba(25, 117, 255, 1);
+    }
+    & button.btn-clockout {
+      background-color: #ff2626;
+    }
+  }
+}
+
+.cards-grid {
+  margin-bottom: 10px;
+  max-height: max-content;
+}
+
+.chart-card {
+  background-color: var(--palette-background-card);
+  border: 1.2px solid hsl(var(--border));
+  border-radius: 12px;
+  padding: 20px;
+  padding-bottom: 15px;
+  & .chart-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    & h2 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+
+.statics-card {
+  width: 100%;
+  height: 100%;
+  background-color: var(--palette-background-card);
+  border: 1.2px solid hsl(var(--border));
+  border-radius: 12px;
+  padding: 20px;
+  padding-bottom: 15px;
+  & .card-title p {
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+  & .info {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    & .val-txt {
+      width: 50%;
+    }
+    & .val-txt h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  & .report {
+    display: inline-flex;
+    gap: 8px;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-top: 10px;
+    color: rgba(144, 149, 160, 1);
+
+    & .report-current-status {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      color: rgba(55, 181, 102, 1);
+    }
+  }
+}
+
+.time-spent_pieChart {
+  width: 100%;
+  & .time-spent_pieChart__footer {
+    border-top: 0.7px solid rgba(212, 212, 212, 1);
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+    & a {
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(25, 117, 255, 1);
+    }
+  }
+  & .chart-wrapper {
+    margin-bottom: 10px;
+    position: relative;
+
+    & .total-time {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      & h3 {
+        font-weight: bold;
+        font-size: 35px;
+      }
+      & p {
+        font-size: 12px;
+        opacity: 0.8;
+      }
+    }
+  }
+  & .chart-wrapper-legend {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    & h6 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 0.8;
+      margin-right: 10px;
+    }
+    & p {
+      line-height: 0.8;
+      opacity: 0.8;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+    & span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+}
+
+.clients-overview_lineChart {
+  width: 100%;
+  & .legend_box {
+    display: flex;
+    gap: 7px;
+    & .label {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+
+      & span {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      & p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.ClientsByLocationIndiaChart {
+  width: 50%;
+
+  & .ClientsByLocationIndiaChart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & h2 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    & h3 {
+      font-size: 22px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      & span {
+        color: rgba(55, 181, 102, 1);
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.SectorWiseOverviewAreaChart {
+  display: flex;
+  flex-direction: column;
+  & .SectorWiseOverviewAreaChart__header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & h2 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    & .SectorWiseOverviewAreaChart__legend {
+      display: flex;
+      gap: 10px;
+
+      & p {
+        font-size: 12px;
+        color: rgba(63, 66, 84, 1);
+      }
+      & span {
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        border-radius: 5px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.LeadsAnalyticsDoughnutChart {
+  & .LeadsAnalyticsDoughnutChart__chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    & .chart-wrapper-legend {
+      & h5 {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      & p {
+        opacity: 0.8;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+      & span {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.ClientListTable {
+  width: 100%;
+}
+.ScheduleCalendar {
+  & h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  & .ScheduleCalendar__body {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+
+    & .ScheduleCalendar__calendar {
+      width: 50%;
+      border-right: 1px solid #ccc;
+
+      & .MuiDateCalendar-root {
+        width: 100%;
+        height: auto;
+        & .MuiPickersDay-root {
+          width: 24px;
+          height: 24px;
+          font-size: 10px;
+        }
+        & .MuiDayCalendar-weekDayLabel {
+          width: 25px;
+          height: 25px;
+          font-weight: bold;
+        }
+        & .MuiPickersCalendarHeader-labelContainer {
+          font-size: 13px;
+          line-height: 13px;
+        }
+        & .MuiDayCalendar-slideTransition {
+          min-height: 180px;
+        }
+        & .MuiPickersCalendarHeader-root {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          padding: 0;
+          padding-left: 7px;
+        }
+        & .MuiPickersArrowSwitcher-button {
+          padding: 4px;
+        }
+        & .MuiPickersYear-yearButton {
+          font-size: 13px;
+          height: auto;
+        }
+      }
+    }
+    & .ScheduleCalendar__events {
+      width: 50%;
+      & .events_topheader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        & h4 {
+          font-size: 12px;
+          font-weight: 700;
+        }
+        & button {
+          background-color: transparent;
+          font-size: 11px;
+          font-weight: 600;
+          color: rgba(25, 117, 255, 1);
+          cursor: pointer;
+          outline: none;
+          border: none;
+        }
+      }
+      & .events-wrappers {
+        padding: 10px;
+        overflow-y: auto;
+        max-height: 250px;
+
+        &::-webkit-scrollbar {
+          width: 0;
+        }
+        & .ScheduleCalendar__events-card {
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 8px;
+          margin-bottom: 10px;
+          & .event-date {
+            border: 1px solid #ccc;
+            width: 40px;
+            text-align: center;
+            border-radius: 5px;
+            & h2 {
+              font-size: 14px;
+              font-weight: 700;
+              border-top: 1px solid #ccc;
+              color: rgba(79, 84, 123, 1);
+            }
+            & p {
+              font-size: 10px;
+              font-weight: 500;
+              color: rgba(244, 76, 76, 1);
+            }
+          }
+          & .event-details {
+            & h2 {
+              font-size: 12px;
+              font-weight: 600;
+            }
+            & p {
+              font-size: 10.8px;
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ClientListTable__body {
+  box-shadow: none;
+  /* border: 10px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.ClientBasedJobRoleTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background-color: hsl(var(--border));
+  border-radius: 10px;
+}

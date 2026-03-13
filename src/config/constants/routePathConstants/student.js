@@ -1,0 +1,11 @@
+export const STUDENT_LOGIN_PAGE = "/student-login";
+export const STUDENT_RESET_PASSWORD = "/student/reset-password/:resetToken";
+export const STUDENT_FACE_CAPTURE = "/student/capture-face";
+export const STUDENT_ID_CAPTURE = "/student/capture-id";
+export const STUDENT_BASIC_INFORMATION = "/student/basic-info";
+export const STUDENT_DETAILS_PAGE = "/student/details";
+export const STUDENT_GENERAL_INSTRUCTIONS = "/student/general-instructions";
+export const ASSESSMENT_PAGE = "/student/assessment";
+export const STUDENT_FEEDBACK_PAGE = "/student/feedback";
+export const STUDENT_TOKEN_LOGIN_PAGE = "/student-token-login";
+export const STUDENT_RESULT_SUMMARY = "/student/result-summary";

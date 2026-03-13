@@ -1,0 +1,8 @@
+.webCam {
+  position: fixed;
+  z-index: -1000;
+  height: 500px;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}

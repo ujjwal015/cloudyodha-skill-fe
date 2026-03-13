@@ -1,0 +1,20 @@
+export const STUDENT_LOGIN_API = "api/student/loginStudent";
+export const GET_STUDENT_ASSESSMENT_API = "api/student/getAssessment";
+export const START_STUDENT_ASSESSMENT_API = "api/student/startAssessment";
+export const GET_SINGLE_QUESTION_API = "api/student/getSingleQuestion";
+export const SAVE_SINGLE_QUESTION_POST_UPDATE = "api/student/saveQuestion";
+export const SUBMIT_STUDENT_TEST_API = "api/student/submitAssessment";
+export const GET_STUDENT_FEEDBACK_API = "api/student/saveAssessmentFeedback";
+export const STUDENT_FACE_CAPTURE_API = "api/student/uploadFaceCapture";
+export const STUDENT_ID_CAPTURE_API = "api/student/uploadIdCapture";
+export const STUDENT_LOGIN_OUT_API = "api/student/logoutCandidate";
+export const CAPTURE_STUDENT_DEVICE_INFO_API =
+  "api/student/captureCandidateBrowserDetails";
+export const CAPTURE_STUDENT_INFO_API = "api/student/candidateBasicInputs";
+export const START_EXAM_TIMER_API = "api/student/startTimer";
+export const SAVE_REMAINING_EXAM_TIME_API = "api/student/saveTime";
+export const GET_SUSPICIOUS_ACTIVITY_API = "api/student/suspiciousActivity";
+export const CHANGE_EXAM_LANGUAGE_API = "api/student/currentSecondaryLanguage";
+export const GET_ALL_STEP_COMPLETED_API = "api/student/instructionStepApi";
+export const GET_STUDENT_INSTRUCTION_API = "api/student/instructionListById";
+export const GET_STUDENT_RESULT_SUMMARY_API ="api/student/single-candidate-question-report";

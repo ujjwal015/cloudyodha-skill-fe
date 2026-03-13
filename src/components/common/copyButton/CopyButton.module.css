@@ -1,0 +1,29 @@
+.copyButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d0d7e2;
+  background: #f5f7fb;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+
+.copyButton:hover {
+  background: #e6ecf8;
+}
+
+.copyButton:active {
+  transform: scale(0.97);
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.label {
+  font-weight: 500;
+}

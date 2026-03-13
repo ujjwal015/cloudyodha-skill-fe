@@ -1,0 +1,35 @@
+.ql-toolbar .ql-snow {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  /* font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+  padding: 8px;
+}
+
+.ql-editor strong {
+  font-weight: bold;
+}
+.ql-editor {
+  /* resize: vertical; */
+  overflow: auto;
+}
+
+.ql-editor.ql-blank::before {
+  font-style: normal !important;
+}
+
+
+.ql-editor {
+  font-family: "poppins";
+}
+
+.ql-editor em {
+  font-style: italic;
+}
+.ql-container.ql-snow {
+  min-height: 300px;
+}
+.ql-toolbar.ql-snow {
+  border-radius: 5px 5px 0px 0px;
+  background: rgba(217, 217, 217, 0.2);
+  
+}

@@ -1,0 +1,105 @@
+.dialog-wrapper .MuiDialog-container > div {
+  max-width: 512px !important;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.reset-password .reset-Modal {
+  width: 512px;
+  padding: 28px 22px 28px 21px;
+  box-sizing: border-box;
+}
+
+.reset-password .reset-Modal .title h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #1d1d1d;
+}
+
+.reset-password .reset-Modal .content-body {
+  margin-top: 25px;
+}
+.reset-password .reset-Modal .content-body h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  opacity: 0.7;
+}
+.reset-password .reset-Modal .action-btn-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.reset-password .reset-Modal .action-btn-wrapper .no-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1ab6f7;
+  border: 1px solid #1ab6f7;
+  border-radius: 8px;
+  padding: 14px 18px;
+  /* margin-right: 25px; */
+  text-transform: inherit;
+  width: 50%;
+}
+
+.reset-password .reset-Modal .action-btn-wrapper .yes-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #00b2ff;
+  border-radius: 8px;
+  padding: 14px 20px;
+  border: unset;
+  text-transform: inherit;
+  width: 50%;
+}
+
+.reset-password .css-1su4254-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 100% !important;
+}
+
+.reset-password .title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reset-password .icon-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.reset-password .icon-title-wrapper .flag-icon {
+  border-radius: 10px;
+  border: 1px solid var(--gray-200, #eaecf0);
+  background: var(--base-white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 12px;
+}
+
+.title-copy-wrapper {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reset-password .input-copy-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+}

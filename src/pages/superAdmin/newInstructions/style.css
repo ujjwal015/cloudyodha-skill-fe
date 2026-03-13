@@ -1,0 +1,12 @@
+.plus-btn{
+    background-color: grey;
+}
+
+.instruction-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-btn{
+    color:#b3d4fc ;
+}

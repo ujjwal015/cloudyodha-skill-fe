@@ -1,0 +1,10 @@
+.jobrole-dialog-list{
+    & p{
+        font-size: 12px;
+        padding: 10px;
+        border-bottom: 1.2px solid #DFDFDF;
+    }
+    & p:nth-of-type(odd){
+        background-color: #FBFBFB;
+    }
+}

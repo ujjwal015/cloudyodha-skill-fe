@@ -1,0 +1,109 @@
+
+
+
+.sheet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  flex: 1 1 calc(100% / 6 - 10px);
+  max-width: 200px; /* Add a max-width to ensure consistent column width */
+  min-width: 150px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007bff;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.header-option {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.alternate-row {
+  background-color: #e3f2fd;
+}
+
+.question-number {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.option {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 2px;
+  font-size: 12px;
+  font-weight: 500;
+  box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+}
+
+.option.selected {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 calc(100% / 2 - 10px);
+    max-width: calc(50% - 10px); /* Ensure columns take up 50% of the container width */
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%; /* Ensure columns take up the entire container width */
+    min-width: 150px;
+  }
+
+  .options {
+    width: 100%;
+  }
+
+  .option {
+    width: 20px;
+    height: 20px; /* Ensure height and width are always equal */
+  }
+
+  .question-number {
+    width: 25px;
+  }
+}

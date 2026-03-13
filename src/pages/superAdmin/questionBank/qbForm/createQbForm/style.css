@@ -1,0 +1,10 @@
+.form-label {
+    margin-bottom: 15px;
+  }
+  .form-label label {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  

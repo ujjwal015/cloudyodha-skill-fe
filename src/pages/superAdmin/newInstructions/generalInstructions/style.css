@@ -1,0 +1,73 @@
+.instructions-view-container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.status-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.instruction-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.sub-instruction {
+  padding-left: 30px;
+}
+
+.instruction-number {
+  margin-right: 8px;
+  font-weight: bold;
+  flex-shrink: 0;
+  min-width: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .sub-instruction {
+    padding-left: 15px;
+  }
+  
+  .instruction-item {
+    margin-bottom: 12px;
+  }
+}
+
+/* Ensure text wrapping for long instructions */
+.instruction-item p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+/* Fix Select dropdown position */
+.MuiSelect-select {
+  padding-right: 32px !important;
+}
+
+/* Ensure breadcrumbs don't overflow */
+.MuiBreadcrumbs-ol {
+  flex-wrap: wrap;
+}
+
+/* Make sure Paper container doesn't overflow */
+.MuiPaper-root {
+  max-width: 100%;
+  box-sizing: border-box;
+}

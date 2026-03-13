@@ -1,0 +1,25 @@
+.question-number-mark-loader {
+  display: flex;
+  justify-content: space-between;
+}
+.number-loader,
+.marks-loader {
+  width: 10%;
+}
+.question-option-loader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.question-skeleton-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.option-loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

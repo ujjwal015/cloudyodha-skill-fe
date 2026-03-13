@@ -1,0 +1,34 @@
+.mob-get-started {
+  display: none !important;
+}
+@media (max-width: 1200px) {
+  .login-container .login-banner {
+    display: none;
+  }
+  .mob-get-started {
+    display: block !important;
+    text-align: center;
+    padding: 0px !important;
+  }
+  .login-container .login-form-container .form-wrapper .submit-btn {
+    padding: 12px !important;
+  }
+  .mob-get-started p {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .mob-get-started button {
+    display: block !important;
+    width: 100% !important;
+  }
+  .desktop-get-started {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-container .login-form-container .form-wrapper .form-group {
+    width: 100% !important;
+  }
+}

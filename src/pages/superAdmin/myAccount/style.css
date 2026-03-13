@@ -1,0 +1,45 @@
+.admin-dashboard .main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-dashboard .main-content .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.my-account-wrapper {
+  background: #fdfdfd;
+  border-radius: 10px;
+}
+.my-account-wrapper .tabs-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0 0 40px;
+  border-bottom: 1px solid #ededed;
+}
+.my-account-wrapper .tabs-wrapper .tab {
+  cursor: pointer;
+}
+.my-account-wrapper .tabs-wrapper .tab.active {
+  color: #2ea8db;
+  border-bottom: 2px solid #2ea8db;
+}
+
+.my-account-wrapper .tab-content {
+  padding: 40px;
+}
+.my-account-wrapper .tab-content .edit-profile {
+  width: 100%;
+}
+.my-account-wrapper .tab-content .edit-profile .form-wrapper {
+  width: 60%;
+}
+.my-account-wrapper .tab-content .edit-profile .img-upload-wrapper {
+  width: 40%;
+}
+
+.my-account-wrapper .tab-content .edit-profile.social-media-wrapper .error-box {
+  margin-bottom: 25px;
+}

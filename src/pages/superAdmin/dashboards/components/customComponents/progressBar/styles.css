@@ -1,0 +1,36 @@
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .progress-dot {
+    height: 8px;
+    width: 18px;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+  }
+  
+  .progress-dot-filled {
+    background-color: #3b82f6;
+  }
+  
+  .progress-dot-empty {
+    background-color: #e5e7eb;
+  }
+  
+  .progress-text {
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  
+  .example-container {
+    padding: 16px;
+  }
+  
+  .input-container {
+    margin-bottom: 16px;
+  }
+  
+  

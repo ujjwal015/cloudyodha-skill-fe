@@ -1,0 +1,227 @@
+/* General Styling */
+.aboutContainer {
+  font-family: 'Arial', sans-serif;
+  padding-top: 20px;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.tittle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tittle span {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #0073e6;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.tittle span:hover {
+  background-color: #f0f0f0;
+}
+
+.paragraph {
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Modify for Truncated Text */
+.about p, .Job p, .Hobbies p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 10px;
+  max-width: 100%;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* Set max-height for truncated content */
+.paragraph p {
+  max-height: 100px; /* Set height to make it truncated */
+  overflow: hidden;
+  position: relative;
+}
+
+.paragraph p.expanded {
+  max-height: none;
+  padding-bottom: 10px; /* Space at the bottom */
+}
+
+/* Container for the sections */
+.about, .Job, .Hobbies {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.error{
+  font-style: italic;
+  font-size: 13px;
+  color: red;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* ReactQuill Styling */
+.react-quill {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.react-quill .ql-toolbar {
+  background: #f4f4f4;
+  border-radius: 6px 6px 0 0;
+  border: none;
+}
+
+.react-quill .ql-editor {
+  min-height: 150px;
+  padding: 12px;
+  font-family: "Poppins", sans-serif,'Ubuntu', 'Calibri', 'Algerian';
+  line-height: 1.5;
+}
+
+.react-quill .ql-container {
+  border-radius: 0 0 6px 6px;
+  background: #ffffff;
+}
+
+/* Buttons */
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel-btn, .submit-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cancel-btn {
+  background-color: #d70000;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #b50000;
+  transform: scale(1.05);
+}
+
+.submit-btn {
+  background-color: #2ea8db;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #1e86b3;
+  transform: scale(1.05);
+}
+
+/* Quill Editor Custom Styling */
+.ql-toolbar.ql-snow {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px 5px 0px 0px;
+  background: rgba(217, 217, 217, 0.2);
+}
+
+.ql-editor strong {
+  font-weight: bold;
+}
+
+.ql-editor {
+  overflow: auto;
+}
+
+.ql-editor.ql-blank::before {
+  font-style: normal !important;
+}
+
+.ql-editor em {
+  font-style: italic;
+}
+
+.ql-container.ql-snow {
+  min-height: 300px;
+}
+
+/* Truncated Text Button Styling */
+.edit-btn {
+  background-color: transparent;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  transition: text-decoration 0.2s ease;
+}
+
+.edit-btn:hover {
+  text-decoration: underline;
+}
+
+/* Hover & Active States for Editable Sections */
+.form-group-full-about {
+  padding: 15px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn:hover {
+  color: #0056b3;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about, .Job, .Hobbies {
+    padding: 15px;
+  }
+
+  .tittle {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .submit-button-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cancel-btn, .submit-btn {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+  }
+
+  .aboutContainer {
+    padding: 10px;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,49 @@
+.filter-header {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding-bottom: 10px;
+  & .close-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 5px;
+    &:hover {
+      background-color: #dedede;
+      border-radius: 50%;
+    }
+  }
+}
+.filter-modal__container {
+  display: flex;
+  & .clear-btn {
+    background-color: #fff2f2;
+    color: #ff0000a6;
+    border: none;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    & .clear-btn__icon {
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.filter_wrapper label {
+  font-size: 12px !important;
+}
+
+.status-filter {
+  margin-bottom: 10px;
+}
+
+.filter-btn-wrapper {
+  padding-top: 5px;
+  margin-top: 15px;
+}
