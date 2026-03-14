@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className={styles.footer} role="contentinfo">
       <div className={styles.container}>
         <p className={styles.copy}>
-          Copyright © 2021 — {moment().format("YYYY")} Testa, All Rights
-          Reserved | Powered by Radiant Infonet Pvt. Ltd.
+          Copyright © 2026 — {moment().format("YYYY")} SETU 100, All Rights
+          Reserved | Powered by SETU 100.
         </p>
       </div>
     </footer>

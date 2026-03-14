@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import RadiantLogo from "../../../../../assets/images/pages/student/Footer/radiantLogo.png";
+import RadiantLogo from "../../../../../assets/images/common/TestaLogo.svg";
 
 const Footer = () => {
   return (

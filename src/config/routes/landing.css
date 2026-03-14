@@ -17,8 +17,8 @@
 
 .landing_logo {
   padding: 25px 0 0 42px;
-  /* height: 100px; */
-  /* width: auto; */
+  height: 100px;
+  width: auto;
   object-fit: contain;
 }
 

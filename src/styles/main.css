@@ -720,6 +720,13 @@ tr:nth-child(even) {
   cursor: pointer;
 }
 
+.banner-bottom-logo {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .login-container .login-banner .login-slide-container {
   position: absolute;
   top: 50%;

@@ -17,11 +17,11 @@ const StudentLayout = () => {
     <Outlet />
   ) : (
     <div className="user-page">
-      <FullscreenGuard>
+      {/* <FullscreenGuard> */}
         <NavBar />
         <Outlet />
         <Footer />
-      </FullscreenGuard>
+      {/* </FullscreenGuard> */}
     </div>
   );
 };

@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import "./style.css";
 import "../../../../../styles/main.css";
-import Logo from "../../../../../assets/images/common/Testa blue1.webp";
+import Logo from "../../../../../assets/images/common/TestaLogo.svg";
+// import Logo from "../../../../../assets/images/common/Testa blue1.webp";
 import { ReactComponent as BellIcon } from "../../../../../assets/new-icons/bell.svg";
 import { ReactComponent as UserIcon } from "../../../../../assets/icons/userIcon.svg";
 import { ReactComponent as Setting } from "../../../../../assets/new-icons/settings.svg";
@@ -107,7 +108,7 @@ const NavBar = () => {
               src={Logo}
               alt="logo"
               height="50"
-              width="130"
+              width="200"
               loading="lazy"
               fetchpriority="high"
               decoding="async"

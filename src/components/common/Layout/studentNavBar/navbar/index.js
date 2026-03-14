@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import "./style.css";
-import Logo from "../../../../../assets/images/common/Main_Logo.svg";
-import Logo_white from "../../../../../assets/images/pages/student/header/logo_1.svg";
+// import Logo from "../../../../../assets/images/common/Main_Logo.svg";
+import Logo from "../../../../../assets/images/common/TestaLogo.svg";
+// import Logo_white from "../../../../../assets/images/pages/student/header/logo_1.svg";
+import Logo_white from "../../../../../assets/images/common/TestaLogo.svg";
 import { ReactComponent as BellIcon } from "../../../../../assets/icons/bell-icon.svg";
 import { authSelector } from "../../../../../redux/slicers/authSlice";
 import { ReactComponent as Logout } from "../../../../../assets/images/pages/student/registrationDetails/power.svg";
