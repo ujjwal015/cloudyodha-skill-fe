@@ -17,6 +17,12 @@
   width: 100%;
 }
 
+.mobile-logo {
+  width: clamp(120px, 35vw, 160px);
+  height: auto;
+  margin-bottom: 16px;
+}
+
 .text-wrapper {
   margin-bottom: 32px;
 }

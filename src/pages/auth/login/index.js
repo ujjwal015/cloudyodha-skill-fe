@@ -7,7 +7,8 @@ import "./style.css";
 import { Button, Checkbox, FormControlLabel, FormGroup } from "@mui/material";
 import Banner from "../Banner";
 import { ReactComponent as MailVector } from "../../../assets/icons/mail-vector.svg";
-import { ReactComponent as TestaLogo } from "../../../assets/icons/TestaLogo.svg";
+import  TestaLogo  from "../../../assets/images/common/TestaLogo.svg";
+// import { ReactComponent as TestaLogo } from "../../../assets/icons/TestaLogo.svg";
 // import { ReactComponent as VisibilityIcon } from "../../../assets/icons/visibility.svg";
 import { IconButton } from "@mui/material";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
@@ -224,7 +225,7 @@ const Login = () => {
                   </Link>
                 </div>
 
-                <div
+                {/* <div
                   className="recaptcha-container"
                   style={{
                     display: "flex",
@@ -249,7 +250,7 @@ const Login = () => {
                       onChange={onRecaptchaChange}
                     />
                   </div>
-                </div>
+                </div> */}
 
                 <Button
                   className="light-blue-btn"
@@ -258,7 +259,8 @@ const Login = () => {
                     width: "100%",
                     cursor: formValues?.sToken ? "pointer" : "no-drop",
                   }}
-                  disabled={loading || !formValues?.sToken ? true : false}
+                  // disabled={loading || !formValues?.sToken ? true : false}
+                  disabled={loading}
                   onClick={handleSubmit}
                 >
                   {loading ? (
@@ -278,11 +280,12 @@ const Login = () => {
   const renderMobileView = () => (
     <div className="mobile-login-container">
       <div className="mobile-header">
-        <TestaLogo />
+        {/* <TestaLogo /> */}
+         <img src={TestaLogo} alt="logo" className="mobile-logo" />
         <div className="header-text">
           <h2>Unleash Your Potential with Modernized Skill Assessments</h2>
           <p>
-            Testa offers an AI-Driven Online Assessment Platform for corporates,
+            SETU 100 offers an AI-Driven Online Assessment Platform for corporates,
             higher educational institutes, and government organizations.
           </p>
         </div>
@@ -302,7 +305,7 @@ const Login = () => {
 
       <div className="mobile-login-form">
         <div className="form-header">
-          <p className="welcome-text">Welcome to Testa 👋</p>
+          <p className="welcome-text">Welcome to SETU 100 👋</p>
           <h4 className="login-text">Login to your account</h4>
         </div>
 
@@ -377,7 +380,7 @@ const Login = () => {
               Forgot password?
             </Link>
           </div>
-          <div
+          {/* <div
             className="recaptcha-container"
             style={{
               display: "flex",
@@ -402,7 +405,7 @@ const Login = () => {
                 onChange={onRecaptchaChange}
               />
             </div>
-          </div>
+          </div> */}
 
           <Button
             className="login-btn"
